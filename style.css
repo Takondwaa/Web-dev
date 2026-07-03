@@ -1,0 +1,70 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family: "Google Sans", sans-serif;
+    background-color:lightgray;
+}
+
+h1{
+    color:darkblue;
+    font-size:40px;
+    text-align:center;
+}
+
+/*h1, h2, h3{
+    font-family: 'Poppins', sans-serif;
+}*/
+
+.intro{
+    color:black;
+    font-style:italic;
+    font-size:18px;
+    padding: 10px 20px;
+    border:2px solid gray;
+    margin:20px;
+    background-color:rgb(193, 192, 192);
+}
+
+#profile{
+    padding:10px 20px;
+    border:none;
+    margin:20px;
+}
+
+#hobbies{
+    background-color:darkgray;
+}
+
+footer ul{
+    list-style:none;
+}
+
+nav a, footer a{
+    text-decoration:none;
+    color:steelblue;
+    font-size:18px;
+}
+
+nav a:hover, footer a:hover{
+    text-decoration:underline;
+}
+
+table{
+    background-color:rgb(129, 128, 128);
+    padding:10px 20px;
+    border:2px solid rgb(75, 75, 75);
+    margin:20px;
+}
+
+input:focus{
+    border-color:steelblue;
+    outline:none;
+}
+
+/*This styles textareas when they are focused*/
+textarea:focus{
+    border-color:steelblue;
+    outline:none;
+}
