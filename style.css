@@ -117,6 +117,12 @@ nav{
     justify-content: center;
 }
 
+footer ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
 .social-links{
     display: flex;
     gap: 30px;
