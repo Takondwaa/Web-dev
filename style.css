@@ -2,6 +2,36 @@
     box-sizing:border-box;
 }
 
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section{
+    margin-bottom: 40px;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+footer h2{
+    color: white;
+}
+
+header{
+    background-color: darkblue;
+    padding: 20px;
+}
+
+header h1{
+    color: white;
+}
+
 body{
     font-family: "Google Sans", sans-serif;
     background-color:lightgray;
@@ -37,17 +67,29 @@ h1{
     background-color:darkgray;
 }
 
-footer ul{
+/*footer ul{
     list-style:none;
+}*/
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
 }
 
-nav a, footer a{
+footer a{
     text-decoration:none;
     color:steelblue;
     font-size:18px;
 }
 
-nav a:hover, footer a:hover{
+nav a:hover{
+    color: lightgray;
+    text-decoration:underline;
+}
+
+footer a:hover{
+    color: coral;
     text-decoration:underline;
 }
 
@@ -67,4 +109,17 @@ input:focus{
 textarea:focus{
     border-color:steelblue;
     outline:none;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.social-links{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
 }
